@@ -15,9 +15,9 @@ Utilisation des CSS pour permettre l'affichage du contenu sur deux colonnes de l
 
 # samples_form.html
 Exemple de formulaire d'inscription comportant les champs :
-1. Prénom
-2. Nom
-3. Genre
-4. Âge
-5. Ville
-6. Abonnement à la newsletter
+* Prénom
+* Nom
+* Genre
+* Âge
+* Ville
+* Abonnement à la newsletter
