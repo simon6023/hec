@@ -1,0 +1,18 @@
+/* ce conteneur prend toute la largeur de l'écran et contiendra les deux colonnes */
+#main_container {
+    float : left;
+    width : 100%;
+}
+
+/* colonne de gauche, fait 50% de la taille de #main_container, et a une couleur de fond grise */
+.left {
+    float : left;
+    width : 50%;
+    background-color : #cccccc;
+}
+
+/* colonne de droite, fait 50% de la taille de #main_container */
+.right {
+    float : left;
+    width : 50%;
+}

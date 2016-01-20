@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <title>Mon blog - Titre de l'article</title>
+        <meta charset="utf-8">
+        <meta name="description" content="La description de mon article.">
+    </head>
+
+    <body>
+        <!-- déclaration du formulaire -->
+        <form action="" method="post">
+            <!-- label : décrit le champ (balise <input>) -->
+            <label for="firstname">Prénom :</label>
+            <!-- champ de type "text" | nom du champ : "firstname" -->
+            <input type="text" name="firstname" id="firstname">
+            
+            <br>
+            
+            <!-- label et champ prénom -->
+            <label for="lastname">Nom :</label>
+            <input type="text" name="lastname" id="lastname">
+            
+            <br>
+            
+            <label for="f">Mme</label>
+            <!-- bouton radio 1 : option "Mme" -->
+            <input type="radio" name="gender" value="f" id="f">
+
+            <label for="m">M.</label>
+            <!-- bouton radio 2 : option "M." -->
+            <input type="radio" name="gender" value="m" id="m">
+            
+            <br>
+            
+            <label for="age">Âge :</label>
+            <!-- champ âge, de type "number", permettant d'écrire des valeurs numériques | valeur minimale "1", maximale "100" -->
+            <input type="number" name="age" id="age" min="1" max="100">
+            
+            <br>
+            
+            <label for="city">Ville :</label>
+            <!-- liste déroulante permettant de choisir une ville -->
+            <select name="city" id="city">
+                <!-- chaque choix de la liste est écrit dans une balise <option> -->
+                <!-- la valeur de cette option permet de savoir quelle choix a été sélectionné -->
+                <!-- le nom de la ville qui apparaît dans la liste est écrit entre <option> et </option> -->
+                <option value="paris">Paris</option>
+                <option value="london">Londres</option>
+            </select>
+            
+            <br>
+            
+            <label for="newsletter">Abonnement à la newsletter :</label>
+            <!-- case à cocher -->
+            <input type="checkbox" name="newsletter" id="newsletter">
+            
+            <br>
+            <br>
+            
+            <!-- bouton permettant d'envoyer le formulaire -->
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>

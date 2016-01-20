@@ -1,0 +1,15 @@
+/* tous les titres de niveau 1 seront écrits en vert */
+h1 {
+	color : green;
+}
+
+/* le paragraphe comportant cette classe sera écrit en gris et en gras */
+.article_author {
+	color : #cccccc;
+	font-weight : bold;
+}
+
+/* lien comportant cet id sera écrit en taille 25 pixels */
+#google_link {
+	font-size : 25px;
+}
