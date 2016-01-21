@@ -21,3 +21,12 @@ Exemple de formulaire d'inscription comportant les champs :
 * Âge
 * Ville
 * Abonnement à la newsletter
+
+# samples_php.php
+Exemples basiques d'utilisation de PHP pour afficher des chaînes de caractères
+
+# samples_php_html.php
+Afficher du PHP contenu dans une page HTML
+
+# samples_variables.php
+Utilisation des variables
