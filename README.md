@@ -30,3 +30,9 @@ Afficher du PHP contenu dans une page HTML
 
 # samples_variables.php
 Utilisation des variables
+
+# samples_bdd_insert_variables.php
+Insertion dans une base de données des valeurs saisies dans un formulaire
+
+# samples_bdd_select.php
+Récupération des enregistrements d'une table de la base de données
