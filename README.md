@@ -51,3 +51,9 @@ Insertion dans une base de données des valeurs saisies dans un formulaire
 
 # samples_bdd_select.php
 Récupération des enregistrements d'une table de la base de données
+
+# samples_bdd_update.php
+Modification des données enregistrées dans la base
+
+# samples_bdd_delete.php
+Suppression de données dans la base
