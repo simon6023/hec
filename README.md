@@ -31,6 +31,21 @@ Afficher du PHP contenu dans une page HTML
 # samples_variables.php
 Utilisation des variables
 
+# samples_array.php
+Utilisation des tableaux en PHP
+
+# samples_conditions.php
+Utilisation des conditions en PHP (if / else / elseif)
+
+# samples_functions.php
+Définition et utilisation de fonctions personalisées en PHP
+
+# samples_functions_natives.php
+Démonstration de quelques fonctions natives de PHP
+
+# samples_loop.php
+Utilisation des boucles en PHP (while / for)
+
 # samples_bdd_insert_variables.php
 Insertion dans une base de données des valeurs saisies dans un formulaire
 
