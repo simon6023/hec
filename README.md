@@ -1,5 +1,5 @@
 # HEC
-Cours d'initiation au développement web | 2016
+Cours d'initiation au développement web | 2017
 
 # samples.html
 Contient des exemples simples d'utilisation de balises html
