@@ -22,6 +22,9 @@ Exemple de formulaire d'inscription comportant les champs :
 * Ville
 * Abonnement à la newsletter
 
+# samples_form_bootstrap.html
+Exemple d'utilisation du framework Bootstrap sur un formulaire
+
 # samples_php.php
 Exemples basiques d'utilisation de PHP pour afficher des chaînes de caractères
 
