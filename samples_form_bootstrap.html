@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <title>Mon blog - Titre de l'article</title>
+        <meta charset="utf-8">
+        <meta name="description" content="La description de mon article.">
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+                <!-- déclaration du formulaire -->
+                <form action="" method="post">
+                    <div class="form-group">
+                        <!-- label : décrit le champ (balise <input>) -->
+                        <label for="firstname">Prénom :</label>
+                        <!-- champ de type "text" | nom du champ : "firstname" -->
+                        <input class="form-control" type="text" name="firstname" id="firstname">
+                    </div>
+                    
+                    <div class="form-group">
+                        <!-- label et champ "nom" -->
+                        <label for="lastname">Nom :</label>
+                        <input class="form-control" type="text" name="lastname" id="lastname">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="f">Mme</label>
+                        <!-- bouton radio 1 : option "Mme" -->
+                        <input type="radio" name="gender" value="f" id="f">
+
+                        <br />
+
+                        <label for="m">M.</label>
+                        <!-- bouton radio 2 : option "M." -->
+                        <input type="radio" name="gender" value="m" id="m">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Âge :</label>
+                        <!-- champ âge, de type "number", permettant d'écrire des valeurs numériques | valeur minimale "1", maximale "100" -->
+                        <input class="form-control" type="number" name="age" id="age" min="1" max="100">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="city">Ville :</label>
+                        <!-- liste déroulante permettant de choisir une ville -->
+                        <select class="form-control" name="city" id="city">
+                            <!-- chaque choix de la liste est écrit dans une balise <option> -->
+                            <!-- la valeur de cette option permet de savoir quelle choix a été sélectionné -->
+                            <!-- le nom de la ville qui apparaît dans la liste est écrit entre <option> et </option> -->
+                            <option value="paris">Paris</option>
+                            <option value="london">Londres</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="newsletter">Abonnement à la newsletter :</label>
+                        <!-- case à cocher -->
+                        <input class="form-control" type="checkbox" name="newsletter" id="newsletter" value="1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <!-- bouton permettant d'envoyer le formulaire -->
+                        <input class="btn btn-primary" type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
